@@ -22,8 +22,8 @@ jobs:
         run: pip install requests
 
       - name: 'run 中青阅读'
-        
-        run: python3 https://github.com/licky009/youthworking/tree/master/quanx/youth.py
+        https://github.com/licky009/youthworking/tree/master/
+        run: python3 quanx/youth.py
         # 目前最大5个账号，可按格式继续填写
         env:
             YOUTH_HEADER1: ${{ secrets.YOUTH_HEADER1 }}  #必须 账号1 body1
